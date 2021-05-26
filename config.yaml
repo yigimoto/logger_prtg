@@ -1,0 +1,17 @@
+#LOGGER
+logger:
+  address: 192.168.160.129
+  username: admin
+  password: R00t123!
+
+devices:
+    - name: 'Internal Logger Device'
+      deviceVendor: 'ArcSight'
+      deviceProduct: 'Logger'
+      deviceHostName: ''
+      deviceAddress: '127.0.0.1'
+    - name: 'Internal Logger Device'
+      deviceVendor: 'ArcSight'
+      deviceProduct: 'Logger'
+      deviceHostName: ''
+      deviceAddress: '127.0.0.2'

@@ -1,0 +1,19 @@
+Konuyu logger sistemleri üzerinde çözümleyeceğiz. 
+
+Bunun sebebi zaten ESM üzerinde durumu adresleyen bir alarm mekanizmamız var.
+
+Bu mekanizmanın sağlıklı çalışmasını garanti etmek için ilgili kaynaklar kilitlendi ve gördüğüm kadarıyla kaynak değişikliklerinin takibi için de kural yazılmış
+
+
+Bir pyhon scripti geliştiriyoruz.
+Bu script
+ 1- Logger'lar ulaşılabilir durumda mı ?
+ 
+ Network Ping
+ API connection kuracak
+
+2- Her 15 dakikada bir API üzerinden sorgu çalıştıracak:
+
+A - Belli tanımlanmış cihazların log sayısını sorgulayacak. Belli bir eşik değerin altında ise alarm üretek
+B - Logger'ların sağlık durumu ile ilgili query çalıştıracak (archive ve config backupları alındı mı)
+C - Oluşan alarmları Email yöntemi ile atacak
